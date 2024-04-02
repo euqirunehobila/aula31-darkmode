@@ -1,0 +1,9 @@
+header {
+    top: 0;
+    position: absolute;
+    right: 0;
+    margin: 3.5em;
+    padding: 1.5rem;
+    height: 50px;
+    display: flex;
+}

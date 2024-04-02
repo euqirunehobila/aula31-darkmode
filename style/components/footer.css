@@ -1,0 +1,21 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    margin-bottom: 50px;
+    justify-self: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: var(--size-xl);
+}
+
+footer a{
+    transition: 0.4s;
+    color: var(--quaternary-color);
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+}

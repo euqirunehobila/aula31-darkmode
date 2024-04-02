@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/dark-mode.css">
+    <link rel="shortcut icon" href="https://d29fhpw069ctt2.cloudfront.net/icon/image/74143/preview.svg">
+    <link rel="stylesheet" href="style/components/header.css">
+    <link rel="stylesheet" href="style/components/footer.css">
+
+    <link rel="stylesheet" href="style/components/main.css">
+    <link rel="stylesheet" href="style/utils/btn.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converta Reais para Dolar</title>
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" name="#" id="toggle" class="toggle-btn">
+        <label for="toggle" class="toggle-label"></label>
+
+    </header>
+
+    <main>
+        <h1>
+            Converta Dolar para Real
+        </h1>
+        <p>O cálculo efetuado tem caráter informativo e não substitui as disposições da norma cambial brasileira para
+            casos específicos de conversão.</p>
+
+        <form action="">
+            <label for="qnt">Digite a quantidade de reais a ser convertido</label>
+            <input type="number" name="" id="qnt">
+
+            <button onclick="converterMoeda(); return false;">Confirmar</button>
+
+
+            <div class="result" id="result-div">
+                <p>O total convertido foi de: <span id="result"></span></p>
+            </div>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>
+            Desenvolvido por <a href="https://www.linkedin.com/in/alibiohenrique/">Henrique Alibio</a>  | 2024 &REG &COPY
+        </p>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
